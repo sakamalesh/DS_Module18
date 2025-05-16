@@ -1,23 +1,28 @@
-# Ex26 Prim’s Algorithm
+# Ex:6(A) Prim’s Algorithm
+## DATE: 5.5.25
 ## AIM:
 To write a C program to implement Prim's Algorithm for finding Total Cost of tree.
 
 ## Algorithm
-1. Start
-2. Read the number of vertices n and the adjacency matrix G.
-3. Initialize the cost, spanning, distance, from, and visited arrays.
-4. Apply Prim’s algorithm to build the minimum spanning tree by selecting the vertex with the 
-minimum distance, updating the spanning tree, and updating the distance array.
-5. Repeat the process until all edges are added to the spanning tree.
-6. Print the spanning matrix and the total cost of the spanning tree.
-7. End
+1.Start the program.
 
+2.Read the number of vertices n and the adjacency matrix G.
+
+3.Initialize the cost, spanning, distance, from, and visited arrays.
+
+4.Apply Prim’s algorithm to build the minimum spanning tree by selecting the vertex with the minimum distance, updating the spanning tree, and updating the distance array.
+
+5.Repeat the process until all edges are added to the spanning tree.
+
+6.Print the spanning matrix and the total cost of the spanning tree.
+
+End the program.
 ## Program:
 ```
 /*
 Program to implement Prim's Algorithm
 Developed by: KAMALESH S
-RegisterNumber:212223040083
+RegisterNumber:  212223040083
 */
 #include<stdio.h> 
 #include<stdlib.h>
@@ -95,10 +100,12 @@ min_cost=min_cost+cost[u][v];
 }
 return(min_cost);
 }
+
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/1f99a680-27e4-4954-a449-c2a413f31713)
+
+![image](https://github.com/user-attachments/assets/ec66f784-57b1-4ee8-aee8-8f4715062c8b)
 
 
 
